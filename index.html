@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Questionario Scolastico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="question-container">
+        <h1 id="question-text">Domanda qui</h1>
+        <button class="option-btn" onclick="selectOption('A')">Opzione A</button>
+        <button class="option-btn" onclick="selectOption('B')">Opzione B</button>
+        <button class="option-btn" onclick="selectOption('C')">Opzione C</button>
+    </div>
+
+    <div class="container" id="result-container" style="display: none;">
+        <h2 id="result-title">Profilo</h2>
+        <p id="result-description">Descrizione del profilo qui.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
